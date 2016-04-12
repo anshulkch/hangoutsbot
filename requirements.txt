@@ -18,3 +18,4 @@ spotipy
 slackclient >=0.16 # slackrtm (includes websockets)
 textblob
 python_dateutil # gitlab sink
+tweepy==3.3.0 # Twitter API

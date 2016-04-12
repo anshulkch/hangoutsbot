@@ -19,9 +19,7 @@ git clone <repository url>
 **install dependencies**
 ```
 pip3 install -r requirements.txt
-pip3 install tweepy==3.3.0
 ```
-Note: tweepy is required for twitter integration.
 
 Note: `pip` may install an outdated version of hangups. You may have to 
   install directly from [source](https://github.com/tdryer/hangups).
