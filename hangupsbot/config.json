@@ -4,12 +4,13 @@
   "autoreplies_enabled": true,
   "autoreplies": [
     [
-      [
-        "hi bot",
-        "hello bot"
-      ],
+      ["hi bot","hello bot"],
       "Hello world!"
-    ]
+    ],
+	[
+	  ["music stream","i need music"],
+	  ["http://www.google.com/url?q=http%3A%2F%2F96.231.209.216%3A8001%2Fstream.ogg&sa=D&sntz=1&usg=AFQjCNGHCE-DzQ9uWGIMrxJhgn1_ZcO3Cg"]
+	]
   ],
   "commands_user": [],
   "commands_enabled": true,
@@ -33,6 +34,15 @@
     "cleverbot",
     "dnd",
     "starter",
-    "remind"
+    "remind",
+	"convtools",
+	"convtools_invitations",
+	"metar",
+	"namelock",
+	"simplewikipedia",
+	"simpletranslate",
+	"spotify",
+	"urbandict",
+	"botaliases"
   ]
 }
