@@ -3,14 +3,14 @@
 Hangupsbot is a chat bot designed for working with Google Hangouts.
 
 Please see:
-* [Instructions for installing](https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
-* [Issue tracker](https://github.com/hangoutsbot/hangoutsbot/issues) for bugs, issues and feature requests
-* [Wiki](https://github.com/hangoutsbot/hangoutsbot/wiki) for everything else
+* [Instructions for installing](https://github.com/anshulkch/hangoutsbot/blob/master/INSTALL.md)
+* [Issue tracker](https://github.com/anshulkch/hangoutsbot/issues) for bugs, issues and feature requests
+* [Wiki](https://github.com/anshulkch/hangoutsbot/wiki) for everything else
 
 
 ## Repository Links
 * [GitHub Organisation](https://github.com/hangoutsbot)
-* [Translation Project](https://github.com/hangoutsbot/hangoutsbot-locales)
+* [Translation Project](https://github.com/anshulkch/hangoutsbot-locales)
 * [Reference Hangups Library](https://github.com/hangoutsbot/hangups)
 
 
@@ -25,21 +25,21 @@ Please see:
 * **Cross-chat Syncouts** :
   Half of your team is on Slack? No problem! You can connect them into the same room to communicate.
   Support for other chat clients coming soon.
-* [**Hubot Integration**](https://github.com/hangoutsbot/hangoutsbot/wiki/Hubot-Integration):
+* [**Hubot Integration**](https://github.com/anshulkch/hangoutsbot/wiki/Hubot-Integration):
   Hangupsbot allows you to connect to [Hubot](https://hubot.github.com/), instantly providing you access
   to hundreds of developed chat tools and plugins.
 * **Plugins and sinks** :
   The bot has [instructions for developing your own plugins and sinks]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Authoring-Bot-Extensions), allowing the bot to interact
+  (https://github.com/anshulkch/hangoutsbot/wiki/Authoring-Bot-Extensions), allowing the bot to interact
   with external services such as your company website, Google scripts and much more.
 * **Plugin mania** :
   games, nickname support, subscribed keywords, customizable API - [**the list goes on**]
-    (https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)!
+    (https://github.com/anshulkch/hangoutsbot/wiki/Plugin-List)!
 
 # Running The Bot
 
 Note: **First run?** See the [installation instructions]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
+  (https://github.com/anshulkch/hangoutsbot/blob/master/INSTALL.md)
 
 To execute: `python3 hangupsbot.py`
 
@@ -68,9 +68,9 @@ Please note that the `config.json` file supplied with the repository is not
   supposed to be edited/changed. It is the reference file used by the bot to 
   create the actual configuration file located elsewhere in the system. To find out 
   where the actual file is, please see the [**Additional Configuration** section]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md#additional-configuration)
+  (https://github.com/anshulkch/hangoutsbot/blob/master/INSTALL.md#additional-configuration)
   in the [installation]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
+  (https://github.com/anshulkch/hangoutsbot/blob/master/INSTALL.md)
   instructions.
 
 Most configuration directives are specified **globally**
@@ -96,19 +96,19 @@ Some plugins may require extra configuration.
 
 Some interesting plugins:
 * [mentions plugin]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Mentions-Plugin)
+  (https://github.com/anshulkch/hangoutsbot/wiki/Mentions-Plugin)
   * alert users when their names are mentioned in a chat
 * [subscribe plugin]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Subscribe-Plugin)
+  (https://github.com/anshulkch/hangoutsbot/wiki/Subscribe-Plugin)
   * alert users when keywords they are subscribed to are said in a chat
 * [syncout / syncrooms plugins]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Syncouts-Plugin)
+  (https://github.com/anshulkch/hangoutsbot/wiki/Syncouts-Plugin)
   * relay chat messages between different hangout group conversations (syncrooms)
   * configure via bot commands (syncrooms_config)
   * automated translation via Google Translate of relayed messages (syncrooms_autotranslate)
 
 The wiki has a more comprehensive **[list of plugins]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)**...
+  (https://github.com/anshulkch/hangoutsbot/wiki/Plugin-List)**...
 
 # Interacting with the Bot
 
@@ -130,11 +130,11 @@ The base bot supports some basic command even without any plugins loaded.
 * Bot replies with the version number of the framework
 
 A full list of commands supported by the base framework is available at the 
-  [**Core Commands**](https://github.com/hangoutsbot/hangoutsbot/wiki/Core-Commands)
+  [**Core Commands**](https://github.com/anshulkch/hangoutsbot/wiki/Core-Commands)
   wiki page.
 
 The wiki also has a 
-  [**list of plugins**](https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)
+  [**list of plugins**](https://github.com/anshulkch/hangoutsbot/wiki/Plugin-List)
   detailing available plugins with commands lists and usage.
 
 # Updating
@@ -167,7 +167,7 @@ The wiki also has a
 
 # Extending
 
-Please see https://github.com/hangoutsbot/hangoutsbot/wiki/Authoring-Bot-Extensions
+Please see https://github.com/anshulkch/hangoutsbot/wiki/Authoring-Bot-Extensions
 
 # Credits / History
 
