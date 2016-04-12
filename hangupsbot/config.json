@@ -9,7 +9,7 @@
     ],
 	[
 	  ["music stream","i need music"],
-	  ["http://www.google.com/url?q=http%3A%2F%2F96.231.209.216%3A8001%2Fstream.ogg&sa=D&sntz=1&usg=AFQjCNGHCE-DzQ9uWGIMrxJhgn1_ZcO3Cg"]
+	  ["http://96.231.209.216:8001/stream.ogg"]
 	]
   ],
   "commands_user": [],
