@@ -21,6 +21,22 @@
       "silentmode": true
     }
   },
+  "spotify": {
+    "soundcloud": "SOUNDCLOUD_CLIENT_ID",
+    "spotify": {
+      "client_id": "SPOTIFY_CLIENT_ID",
+      "client_secret": "SPOTIFY_CLIENT_SECRET",
+      "redirect_uri": "SPOTIFY_REDIRECT_URI",
+      "user": "SPOTIFY_USER"
+    },
+    "youtube": "YOUTUBE_API_KEY"
+  },
+  "twitter": {
+	  "consumer_key": "YOUR-CONSUMER-KEY",
+	  "consumer_secret": "YOUR-CONSUMER-SECRET",
+	  "access_token": "YOUR-ACCESS-TOKEN",
+	  "access_secret": "YOUR-ACCESS-SECRET"
+  },
   "link_to_guide": "https://github.com/hangoutsbot/hangoutsbot/wiki/User-Guide",
   "mentionall":true,
   "silentmode":false,
