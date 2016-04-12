@@ -27,22 +27,5 @@
   "mentionallwhitelist": [],
   "mentionerrors": true,
   "mentionquidproquo": false,
-  "plugins": [
-    "default",
-    "mentions",
-    "autoreply",
-    "cleverbot",
-    "dnd",
-    "starter",
-    "remind",
-	"convtools",
-	"convtools_invitations",
-	"metar",
-	"namelock",
-	"simplewikipedia",
-	"simpletranslate",
-	"spotify",
-	"urbandict",
-	"botaliases"
-  ]
+  "plugins": []
 }
