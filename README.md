@@ -10,38 +10,35 @@ Please see:
 
 ## Repository Links
 * [GitHub Organisation](https://github.com/hangoutsbot)
+* [anshulkch'sfork](https://github.com/hangoutsbot)
 * [Translation Project](https://github.com/hangoutsbot/hangoutsbot-locales)
 * [Reference Hangups Library](https://github.com/hangoutsbot/hangups)
 
 
 ## Features
 * **Mentions** :
-  If somebody mentions you in a room, receive a private hangout from the bot with details onthe mention,
+  If somebody mentions you in a room, receive a private hangout from the bot with details on the mention,
   including context, room and person who mentioned you.
 * **Syncouts** :
-  A syncout is two Hangout group chats that have their messages forwarded to each other, allowing seamless
-  interaction between the two rooms. Primarily used to beat the 150-member chat limit, but it can also be
-  used for temporarily connecting teams together to interact.
+  This allows syncing of group chats that want to chat with more than 150 people at once. This way EVERY SINGLE PERSON in the ENTIRE school can see your cat videos. perfect.
 * **Cross-chat Syncouts** :
-  Half of your team is on Slack? No problem! You can connect them into the same room to communicate.
-  Support for other chat clients coming soon.
-* [**Hubot Integration**](https://github.com/hangoutsbot/hangoutsbot/wiki/Hubot-Integration):
-  Hangupsbot allows you to connect to [Hubot](https://hubot.github.com/), instantly providing you access
-  to hundreds of developed chat tools and plugins.
+  Half of your nonexistent friends are on Slack? No problem! You can connect them into the same room to communicate. Jkjkjk but seriously. You can do that.
 * **Plugins and sinks** :
-  The bot has [instructions for developing your own plugins and sinks]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Authoring-Bot-Extensions), allowing the bot to interact
-  with external services such as your company website, Google scripts and much more.
-* **Plugin mania** :
-  games, nickname support, subscribed keywords, customizable API - [**the list goes on**]
-    (https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)!
+  The bot has [instructions for developing your own plugins and sinks](https://github.com/hangoutsbot/hangoutsbot/wiki/Authoring-Bot-Extensions), allowing the bot to interact
+  with external services such as your company website, Google scripts and much more. That's right. Even the Urban Dictionary. Don't get any dirty thoughts though, somebody might have to yank your head out of the gutter.
+* **Insult command** :
+Got a friend you hate? Use the /bot insult command on them to get em back, but don't abuse it. That's kinda cyber-bullying... not cool.
+* **Plugins** :
+ tons of great plugins already preloaded, including the API if you want to develop some yourself: [Plugin-List](https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)
 
 # Running The Bot
 
-Note: **First run?** See the [installation instructions]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
+Note: **First run?** See the [installation instructions](https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
 
-To execute: `python3 hangupsbot.py`
+To execute:
+
+`source venv/bin/activate`  
+`python3 hangupsbot.py`
 
 ```
 usage: hangupsbot [-h] [-d] [--log LOG] [--cookies COOKIES] [--memory MEMORY] [--config CONFIG] [--version]
@@ -64,14 +61,14 @@ optional arguments:
 
 Configuration directives can be specified in `config.json`.
 
-Please note that the `config.json` file supplied with the repository is not 
-  supposed to be edited/changed. It is the reference file used by the bot to 
-  create the actual configuration file located elsewhere in the system. To find out 
-  where the actual file is, please see the [**Additional Configuration** section]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md#additional-configuration)
-  in the [installation]
-  (https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
+Please note that the `config.json` file supplied with the repository is not
+  supposed to be edited/changed. It is the reference file used by the bot to
+  create the actual configuration file located elsewhere in the system. To find out
+  where the actual file is, please see the [**Additional Configuration** section](https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md#additional-configuration)
+  in the [installation](https://github.com/hangoutsbot/hangoutsbot/blob/master/INSTALL.md)
   instructions.
+
+  You can also use the `/bot help` command to locate the files.
 
 Most configuration directives are specified **globally**
 * Global directives are always specified in the "root" of `config.json`.
@@ -94,21 +91,7 @@ To specify the plugins to be loaded, first ensure that the correct `.py` files a
 Some plugins may require extra configuration.
   `config.json` is the the configuration provider for the bot and its plugins.
 
-Some interesting plugins:
-* [mentions plugin]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Mentions-Plugin)
-  * alert users when their names are mentioned in a chat
-* [subscribe plugin]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Subscribe-Plugin)
-  * alert users when keywords they are subscribed to are said in a chat
-* [syncout / syncrooms plugins]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Syncouts-Plugin)
-  * relay chat messages between different hangout group conversations (syncrooms)
-  * configure via bot commands (syncrooms_config)
-  * automated translation via Google Translate of relayed messages (syncrooms_autotranslate)
-
-The wiki has a more comprehensive **[list of plugins]
-  (https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)**...
+The wiki has a more comprehensive **[list of plugins](https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)**...
 
 # Interacting with the Bot
 
@@ -129,11 +112,11 @@ The base bot supports some basic command even without any plugins loaded.
 `/bot version`
 * Bot replies with the version number of the framework
 
-A full list of commands supported by the base framework is available at the 
+A full list of commands supported by the base framework is available at the
   [**Core Commands**](https://github.com/hangoutsbot/hangoutsbot/wiki/Core-Commands)
   wiki page.
 
-The wiki also has a 
+The wiki also has a
   [**list of plugins**](https://github.com/hangoutsbot/hangoutsbot/wiki/Plugin-List)
   detailing available plugins with commands lists and usage.
 
@@ -165,10 +148,6 @@ The wiki also has a
 **Bot isn't responding to messages:**
 * Check that the chats are not going into the 'Invites' section of Hangouts.
 
-# Extending
-
-Please see https://github.com/hangoutsbot/hangoutsbot/wiki/Authoring-Bot-Extensions
-
 # Credits / History
 
 Hangoutsbot is derived from the [mogunsamang](https://gitlab.sabah.io/eol/mogunsamang) bot,
@@ -177,3 +156,5 @@ Hangoutsbot is derived from the [mogunsamang](https://gitlab.sabah.io/eol/moguns
 On 2015-06-20, this fork was detached and made standalone on GitHub
 
 On 2015-07-03, the fork was made into a Github Organisation
+
+This bot has been modified to suit [anshukch's](https://github.com/anshulkch) needs
