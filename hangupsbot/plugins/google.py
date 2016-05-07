@@ -1,6 +1,6 @@
 """
 Google search integration.
-By: 997R8V10
+By: anshulkch & 997R8V10
 """
 
 import logging
@@ -31,11 +31,11 @@ def _api_lookup(bot, type, code, num):
 
 def google(bot, event, *args):
     if not args:
-    	yield from bot.coro_send_message(event.conv_id, "You must pass in a search type: eg: fs google s <QUERY>.. s for web search, i for image search")
+    	yield from bot.coro_send_message(event.conv_id, "You must pass in a search type: eg: ap google s <QUERY>.. s for web search, i for image search")
     	return
     command = args[0]
     if not command:
-    	yield from bot.coro_send_message(event.conv_id, "You must pass in a search type: eg: fs google s <QUERY>.. s for web search, i for image search and the amount of results")
+    	yield from bot.coro_send_message(event.conv_id, "You must pass in a search type: eg: ap google s <QUERY>.. s for web search, i for image search and the amount of results")
     	return
     num = args[1]
     if not num:

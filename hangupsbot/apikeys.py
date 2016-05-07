@@ -1,0 +1,6 @@
+cx = "001646105420711627221:gryvlrbu6we"
+image = "001646105420711627221:uk0gjjmg4ym"
+gapi = "AIzaSyDaDNAbJ83i2MK-MTmJroQ9XIvpJJVoGnI"
+mashape = "Epn5gecpe6mshitqaOpNsGHVTzpJp1KYzPyjsnyAR55NG1AeMm"
+wordnik = "42dadbc9a1a20ddd840010fcc9c01b1716ab498cac8f77b5c"
+twitter = "IlFmb7VufS8RLnp1EMMp5FrrK"
