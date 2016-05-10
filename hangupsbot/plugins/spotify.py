@@ -17,7 +17,6 @@ from googleapiclient.errors import HttpError as YouTubeHTTPError
 from requests.exceptions import HTTPError as SoundcloudHTTPError
 from spotipy.client import SpotifyException
 
-import soundcloud
 import spotipy
 import spotipy.util
 
